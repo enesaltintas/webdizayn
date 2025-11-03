@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> table, th, td {
+        border: 1px solid black ; } 
+    </style>
+</head>
+<body>
+    <h2>Öğrenci Bilgi Sistemi Kayıt Formu</h2>
+    <table>
+    <tr>
+    <th>Görsel</th>
+    <th>Ad-Soyad</th>
+    <th>Okul Numarası</th>
+    <th>Sınıf</th>
+    <th>Dersler</th>
+    </tr>
+    <tr>
+        <td><input type="file" name="dosya"></td>
+        <td><input type="text" name="username" placeholder="Adınız-Soyadınız"></td>
+        <td><input type="text" name="number" placeholder="Okul numarası"></td>
+        <td>
+        <label for="Cinsiyet"> Sınıf Seçiniz :  </label> <br> 
+        <input type="radio" value="Hazırlık" name="Sınıf"> Hazırlık   <br>
+        <input type="radio" value="1.Sınıf" name="Sınıf"> 1.Sınıf     <br>
+        <input type="radio" value="2.Sınıf" name="Sınıf"> 2.Sınıf     <br>
+        <input type="radio" value="3.Sınıf" name="Sınıf"> 3.Sınıf     <br>
+        <input type="radio" value="4.Sınıf" name="Sınıf"> 4.Sınıf     <br>
+        </td>
+        <td>
+        <label for="araba"> Almak istediğiniz dersleri işaretleyiniz :</label> <br>
+        <input type="checkbox"> Web Dizayn ve Programlama <br>
+        <input type="checkbox"> Bilgisayar Ağları <br>
+        <input type="checkbox"> Pazarlama Bilgi Sistemleri <br>
+        <input type="checkbox"> Bilgi Yönetimi <br>
+        <input type="checkbox"> Öğrenen Organizasyon <br>
+        </td>
+    </tr>
+    </table>
+    <br>
+    <input type="submit" value="Bilgilerimi Gönder">
+</body>
+</html>
